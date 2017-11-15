@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppQuest 01: Metalldetektor</string>
+    <string name="activity_title_main">Metalldetektor</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>

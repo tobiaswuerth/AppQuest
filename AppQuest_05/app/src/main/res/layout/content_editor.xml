@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutContentEditor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activity.EditorActivity"
+    tools:showIn="@layout/activity_editor"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="start"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="start">
+
+            <ImageButton
+                android:id="@+id/btnDraw"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/pen_gray" />
+
+            <ImageButton
+                android:id="@+id/btnFill"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/fill_gray" />
+
+            <ImageButton
+                android:id="@+id/btnSquare"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/square_gray" />
+
+            <ImageButton
+                android:id="@+id/btnSphere"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/sphere_gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="end">
+
+            <ImageButton
+                android:id="@+id/btnClear"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/eraser_gray"/>
+
+            <ImageButton
+                android:id="@+id/btnLoadImage"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/image_gray" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayoutDrawingPitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnNewColorSelector"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/color_add_button_style"
+            android:layout_marginEnd="10dp" />
+
+            <GridView
+                android:id="@+id/linearLayoutColorSelectorControls"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:numColumns="auto_fit"
+                android:fastScrollEnabled="true"
+                android:fadeScrollbars="false"
+                android:horizontalSpacing="10dp"
+                android:verticalSpacing="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>

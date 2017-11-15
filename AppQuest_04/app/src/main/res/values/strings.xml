@@ -1,0 +1,34 @@
+<resources>
+    <!-- Display Text -->
+    <string name="app_name">Schrittzaehler</string>
+    <string name="NA">N/A</string>
+    <string name="orientationLeft">Turn left</string>
+    <string name="orientationRight">Turn right</string>
+    <string name="orientationForward">Move forward</string>
+
+    <!-- Controls -->
+    <string name="textViewNoQrCode">.. or load sample path</string>
+    <string name="btnScanPath">Scan Path</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_pathDone_message">The route is done, do you want to scan the QR-Code?</string>
+    <string name="dialog_pathDone_okButton">Yes, scan!</string>
+    <string name="dialog_pathDone_cancelButton">No, thanks.</string>
+
+    <!-- Toasts -->
+    <string name="toast_invalidPathFormat">Invalid path format!</string>
+    <string name="toast_ttsNotLoaded">Text to Speech could not be loaded</string>
+
+    <!-- Text to Speech -->
+    <string name="ttsForward">Now move %1s steps forward</string>
+    <string name="ttsRight">Now turn right</string>
+    <string name="ttsLeft">Now turn left</string>
+
+    <!-- Menu -->
+    <string name="action_log">Log</string>
+    <string name="action_skip">Skip</string>
+    <string name="action_showPlot">Show acceleration graph</string>
+
+    <!-- Other -->
+    <string name="jsonSamplePath">{\"input\":[\"10\",\"links\",\"15\",\"rechts\",\"20\",\"links\",\"25\",\"10\",\"links\",\"15\",\"rechts\",\"20\",\"links\",\"25\",\"10\",\"links\",\"15\",\"rechts\",\"20\",\"links\",\"25\"], \"startStation\" :1}</string>
+</resources>

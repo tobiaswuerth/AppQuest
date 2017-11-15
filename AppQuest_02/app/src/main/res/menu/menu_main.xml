@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/menu_log" android:title="@string/menu_log"
+        android:orderInCategory="100" android:showAsAction="ifRoom|withText" android:icon="@drawable/log" />
+</menu>

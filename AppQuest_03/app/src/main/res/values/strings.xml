@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AppQuest 03: Schatzkarte</string>
+    <string name="activity_title_main">Schatzkarte</string>
+
+    <!-- ActionBar -->
+    <string name="action_log">Log</string>
+    <string name="action_deleteMarkers">Delete markers</string>
+
+    <!-- Dialog to remove markers -->
+    <string name="dialog_deleteMarkers_Title">Delete markers</string>
+    <string name="dialog_deleteMarkers_Body">Are you sure you want to delete all markers on the map?</string>
+    <string name="dialog_deleteMarkers_YesButton">Yes, delete!</string>
+    <string name="dialog_deleteMarkers_NoButton">No, keep \'em!</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_deleteMarkers_successful">Markers successfully deleted</string>
+    <string name="toast_markerAdded">Marker added</string>
+    <string name="toast_locationNotFound">Current location could not be found!\n Please check if your GPS is enabled!</string>
+
+</resources>

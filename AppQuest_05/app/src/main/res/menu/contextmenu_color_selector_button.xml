@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activity.EditorActivity">
+
+    <item
+        android:id="@+id/action_remove"
+        android:orderInCategory="100"
+        android:title="@string/action_remove" />
+    <item
+        android:id="@+id/action_change"
+        android:orderInCategory="100"
+        android:title="@string/contextmenu_change" />
+</menu>

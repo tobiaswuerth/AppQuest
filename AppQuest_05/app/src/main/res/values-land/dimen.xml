@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ambilwarna_hsvHeight">180dp</dimen>
+    <dimen name="ambilwarna_hsvWidth">190dp</dimen>
+    <dimen name="ambilwarna_color_width">50dp</dimen>
+    <dimen name="ambilwarna_color_height">24dp</dimen>
+</resources>

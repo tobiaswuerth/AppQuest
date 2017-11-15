@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AppQuest 02: Hoehenmesser</string>
+    <string name="activity_title_main">Hoehenmesser</string>
+    <string name="activity_title_calculation">Height Calculation</string>
+
+    <string name="menu_log">Log</string>
+
+    <string name="startMeasurement">Start</string>
+    <string name="stopMeasurement">Stop</string>
+    <string name="calculateMeasurement">Calculate</string>
+    <string name="angle_alpha">Angle α = </string>
+    <string name="angle_beta">Angle β = </string>
+    <string name="result">Height b = </string>
+    <string name="undefined">undefined</string>
+    <string name="distanceToObject">Distance to object</string>
+    <string name="distance_a">Distance a = </string>
+
+</resources>
